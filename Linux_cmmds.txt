@@ -1,0 +1,29 @@
+Linux commands 
+
+#Virtual Enviornment related cmd:
+1] Listing your Virtual Environments  
+conda env list
+
+2]Deactivating the Virtual Environment
+conda deactivate
+
+3]Activate Virtual Enviornment
+source activate enviornment_name
+
+4]Creating a Python Virtual Environment
+conda create -n Project1 python=3.6
+conda create' command will output a list of packages that will be downloaded/installed and prompt you to proceed. Type 'y' to continue. This will install the Python version that you specified, along with the listed packages, to the .conda/envs/${env_name} directory in your home directory . In the above example, since the environment name we specified with the '-n' option to conda is 'Project1', the virtual environment will be installed into the .conda/envs/Project1 directory.
+
+5]isting Packages Installed in a Virtual Environment
+conda list 
+
+6]Installing Packages to a Virtual Environment
+
+a. conda install numpy
+
+b. pip install numpy
+
+c. conda install --name Project1 numpy
+
+The differences between conda and pip are often misunderstood as both package managers provide similar functionality. On one hand, pip is well-adopted in the Python community and the Python Package Index (PyPI) contains a vast array of packages maintained by the community. On the other hand, Conda is a general-purpose package manager, can help track dependencies for non-Python libraries, and is fully compatible with pip. In general, each package manager compliments the other and you are free to use whichever provides the package you wish to install.
+
