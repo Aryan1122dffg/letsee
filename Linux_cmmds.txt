@@ -27,3 +27,15 @@ c. conda install --name Project1 numpy
 
 The differences between conda and pip are often misunderstood as both package managers provide similar functionality. On one hand, pip is well-adopted in the Python community and the Python Package Index (PyPI) contains a vast array of packages maintained by the community. On the other hand, Conda is a general-purpose package manager, can help track dependencies for non-Python libraries, and is fully compatible with pip. In general, each package manager compliments the other and you are free to use whichever provides the package you wish to install.
 
+
+7] Opening a file 
+a. cat file_name 
+b. more file_name
+
+8] Open and Edit a file in Commd prompt
+sudo nano helloWorld.txt/html/css/js file extensions 
+
+9] Run a file
+Run the file from the terminal. For example, if the file is in your current directory, you can prefix it with 
+a]  ./ 
+b]  ./my_script.sh.
