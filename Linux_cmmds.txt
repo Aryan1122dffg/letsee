@@ -39,3 +39,12 @@ sudo nano helloWorld.txt/html/css/js file extensions
 Run the file from the terminal. For example, if the file is in your current directory, you can prefix it with 
 a]  ./ 
 b]  ./my_script.sh.
+
+
+
+
+
+
+
+
+Bharatam mahabharatam 
