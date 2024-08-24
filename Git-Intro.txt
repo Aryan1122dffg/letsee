@@ -42,3 +42,9 @@ git log	View changes
 git log --summary	View changes (detailed)
 git log --oneline	View changes (briefly)
 git diff [source branch] [target branch]	
+
+
+
+
+
+HI!THIS IS THE COMMIT CHANEGS IN LOWEST BRANCH. LETS PULL REQUEST AND MERGE 
